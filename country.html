@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <style>
+        #country {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .country-details {
+            border: 4px solid gold;
+            padding: 30px;
+            margin: 30px;
+            border-radius: 30px;
+            background-color: green;
+
+        }
+
+
+        a {
+            font-size: 30px;
+            text-decoration: none;
+            color: red;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 4px 6px 4px 6px;
+            background-color: white;
+            border: 2px solid red;
+            border-radius: 10px;
+            color: red;
+            
+        }
+        .btn:hover{
+            background-color: red;
+            color: azure;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a target="_blank" href="index.html">country json</a>
+    <a target="_blank" href="friends.html">friends json</a>
+
+    <h1>Show All Country</h1>
+    <section class="countries">
+        <div id="country-details">
+        </div>
+        <div id="country">
+            <!-- <h3></h3>
+            <p></p>
+           <button onclick=""></button>  
+            <img src="" alt=""> -->
+        </div>
+        <div id="bangladesh"></div>
+
+    </section>
+    <script src="country.js"></script>
+</body>
+
+</html>
